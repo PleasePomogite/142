@@ -10,3 +10,4 @@
 - # Морзянка.py - азбука Морзе на python 
 - # АлгебраЛогикийоу.py - задание по алгебре логики с сайта
 ![Build Status](https://static.findanime.net/uploads/pics/00/84/061_o.jpg)
+- # lagrida_latex_editor (2).png - закон де Моргена
