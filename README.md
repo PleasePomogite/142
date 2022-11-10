@@ -11,3 +11,5 @@
 - # АлгебраЛогикийоу.py - задание по алгебре логики с сайта
 $$\overline{A\wedge B}=\overline{A}\vee \overline{B}$$
 ![Build Status](https://static.findanime.net/uploads/pics/00/84/061_o.jpg)
+
+![](https://github.com/PleasePomogite/142/blob/main/Image/lagrida_latex.png)
