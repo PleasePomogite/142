@@ -8,7 +8,7 @@ texts = [
 ]
 
 def f(name,text):
-    name = 'C:/Users/user/Desktop/aaa/'+name + '.jpg'
+    name = 'img/' + name + '.jpg'
     im = Image.new('RGB', (500,500), color=('#FAACAC'))
     draw_text = ImageDraw.Draw(im)
     font = ImageFont.truetype("arial.ttf", 20, encoding='UTF-8')
@@ -20,10 +20,10 @@ def f(name,text):
     )
     im.save(name)
 def f1():
-    direc = 'C:/Users/user/Desktop/aaa'
+    direc = 'img/'
     files = os.listdir(direc)
     imag = list(filter(lambda x: x.endswith('.jpg'), files))
-    clips = [ImageClip(m).set_duration(2) for m in imag]
+    clips = [ImageClip('img/' + m).set_duration(2) for m in imag]
 
     final = concatenate_videoclip(clips, method='compose')
     final.write_videofile('test.mp4', fps=24)
