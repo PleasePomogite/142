@@ -2,17 +2,17 @@ from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFont
 import os
 texts = [
-    'Yare yare'
-    'Я люблю рогалики'
-    'Прослушайте текст и напишите сжатое изложение'
-    'Переиграть и уничтожить'
-    'Мы все умрём'
-    'Hello world)))))'
-    'О ja-ja das ist fantastisch'
-    'Йоу'
-    'Кчау'
-    'ЯЛКВМОМ'
-    'Спасибо за внимание'
+    'Yare yare',
+    'Я люблю рогалики',
+    'Прослушайте текст и напишите сжатое изложение',
+    'Переиграть и уничтожить',
+    'Мы все умрём',
+    'Hello world)))))',
+    'О ja-ja das ist fantastisch',
+    'Йоу',
+    'Кчау',
+    'ЯЛКВМОМ',
+    'Спасибо за внимание',
 ]
 
 def f(name,text):
