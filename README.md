@@ -10,6 +10,7 @@
 - ## Морзянка.py - азбука Морзе на python 
 - ## АлгебраЛогикийоу.py - задание по алгебре логики с сайта
 - ## Видева в python.py - слайдшоу на питоне 
+- ## Вопросики.py - викторина (мб не работает)
 $$\overline{A\wedge B}=\overline{A}\vee \overline{B}$$
 ![Build Status](https://static.findanime.net/uploads/pics/00/84/061_o.jpg)
 
