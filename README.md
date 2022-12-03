@@ -28,10 +28,3 @@ flowchart LR
     click C href "https://www.github.com" _blank
     click D href "https://www.github.com" "Open this in a new tab" _blank
     '''
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-    ```
