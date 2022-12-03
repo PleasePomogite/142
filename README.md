@@ -18,28 +18,13 @@ $$\overline{A\wedge B}=\overline{A}\vee \overline{B}$$
 
 
 ```mermaid
-<body>
-  <pre class="mermaid">
-    flowchart LR
-        A-->B
-        B-->C
-        C-->D
-        click A callback "Tooltip"
-        click B "https://www.github.com" "This is a link"
-        click C call callback() "Tooltip"
-        click D href "https://www.github.com" "This is a link"
-  </pre>
-
-  <script>
-    const callback = function () {
-      alert('A callback was triggered');
-    };
-    const config = {
-      startOnLoad: true,
-      flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'cardinal' },
-      securityLevel: 'loose',
-    };
-    mermaid.initialize(config);
-  </script>
-</body>
-```
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+    click A "https://www.github.com" _blank
+    click B "https://www.github.com" "Open this in a new tab" _blank
+    click C href "https://www.github.com" _blank
+    click D href "https://www.github.com" "Open this in a new tab" _blank
+'''
